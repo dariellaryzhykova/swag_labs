@@ -1,7 +1,5 @@
 name: swag_labs
 
-run-name: ${{ github.actor }} is learning GitHub Actions
-
 on: [push]
 jobs:
   swag_labs:
