@@ -12,5 +12,4 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '21'
-      - run: npm install -g bats
       - run: ./gradlew clean test
