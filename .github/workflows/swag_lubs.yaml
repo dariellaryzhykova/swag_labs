@@ -15,4 +15,4 @@ jobs:
           with:
             selenoid-start-arguments: |
               --args "-timeout 60s"
-      - run: ./gradlew clean test
+      - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
