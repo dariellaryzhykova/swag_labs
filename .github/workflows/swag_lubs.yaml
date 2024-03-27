@@ -10,9 +10,5 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '8'
-      - name: Start selenoid
-          - uses: Xotabu4/selenoid-github-action@v2
-          with:
-            selenoid-start-arguments: |
-              --args "-timeout 60s"
+      - uses: Xotabu4/selenoid-github-action@v2
       - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
