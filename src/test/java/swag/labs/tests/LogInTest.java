@@ -24,7 +24,7 @@ public class LogInTest extends BaseTest {
             logIn.logInAsStandardUser();
             logIn.pressSignIn();
             Products products = new Products();
-            products.getTitleProducts().shouldHave(text("Products"));
+            products.getTitleProducts().shouldHave(text("Products1"));
         });
     }
 }
