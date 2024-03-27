@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 27 23:09:33 GMT 2024","Wed Mar 27 23:09:36 GMT 2024","2893","","swag.labs.tests.LogInTest","","swag.labs.tests.LogInTest","verifyLogin","verifyLogin()",""
